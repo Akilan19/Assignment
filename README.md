@@ -4,7 +4,9 @@ This repository contains a pipeline for automatic hand tracking in videos using 
 
 ## Features
 Hand Detection: Uses Google MediaPipe to detect hands in the first frame of a video.
+
 Hand Tracking: Utilizes SAM 2 to propagate masks for hand regions throughout the video.
+
 Output: Generates a video with masked hands, visualizing hand movement across frames.
 
 ## Pre-requisites
